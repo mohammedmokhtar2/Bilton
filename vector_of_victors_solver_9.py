@@ -507,7 +507,20 @@ def solver(env) -> Dict[str, List[Dict]]:
             )
 
             if steps:
-                solution["routes"].append({"vehicle_id": vehicle_id, "steps": steps})
+                # Also include a legacy `route` array and precomputed distance.
+                # Some report generators still read these for distance metrics.
+                route_node_ids = [s['node_id'] for s in steps]
+                try:
+                    distance_km = env.get_route_distance(route_node_ids) or 0.0
+                except Exception:
+                    distance_km = 0.0
+
+                solution["routes"].append({
+                    "vehicle_id": vehicle_id,
+                    "steps": steps,
+                    "route": route_node_ids,
+                    "distance_km": distance_km,
+                })
                 planning_inventory = new_planning_inventory
                 used_vehicles_in_main_loop.add(vehicle_id)
 
@@ -560,7 +573,18 @@ def solver(env) -> Dict[str, List[Dict]]:
 
                       if steps:
                           print(f"Fallback success: Assigned {order_id} to {vehicle_id}.")
-                          solution["routes"].append({"vehicle_id": vehicle_id, "steps": steps})
+                          route_node_ids = [s['node_id'] for s in steps]
+                          try:
+                              distance_km = env.get_route_distance(route_node_ids) or 0.0
+                          except Exception:
+                              distance_km = 0.0
+
+                          solution["routes"].append({
+                              "vehicle_id": vehicle_id,
+                              "steps": steps,
+                              "route": route_node_ids,
+                              "distance_km": distance_km,
+                          })
                           planning_inventory = new_planning_inventory
                           assigned_in_fallback.add(order_id)
                           assigned_this_order = True
