@@ -1,0 +1,1439 @@
+ROUTE DETAILS
+==================================================
+
+ROUTE 1:
+--------------------
+Vehicle: HeavyTruck_WH-1_1
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 29542602
+  Step 2 @ node 29542602
+    + Pickup: WH WH-1 - 104x Light_Item
+    + Pickup: WH WH-1 - 95x Heavy_Item
+    + Pickup: WH WH-1 - 102x Medium_Item
+  Step 3 @ node 7208831013
+  Step 4 @ node 269119643
+  Step 5 @ node 6583698941
+  Step 6 @ node 7169333001
+  Step 7 @ node 7179508258
+  Step 8 @ node 503842194
+  Step 9 @ node 269120319
+  Step 10 @ node 269120320
+  Step 11 @ node 8621458916
+  Step 12 @ node 7206789995
+  Step 13 @ node 273031411
+  Step 14 @ node 6572799622
+  Step 15 @ node 7206774353
+  Step 16 @ node 7206789911
+  Step 17 @ node 7206789917
+  Step 18 @ node 7206789895
+  Step 19 @ node 7206789817
+  Step 20 @ node 7206789829
+  Step 21 @ node 8010972133
+  Step 22 @ node 7201339585
+  Step 23 @ node 7201339578
+  Step 24 @ node 7201339525
+  Step 25 @ node 7204275483
+  Step 26 @ node 331245498
+  Step 27 @ node 6579615621
+  Step 28 @ node 7201339518
+  Step 29 @ node 7201339581
+    - Delivery: Order ORD-27 - 3x Light_Item
+    - Delivery: Order ORD-27 - 6x Medium_Item
+    - Delivery: Order ORD-27 - 3x Heavy_Item
+  Step 30 @ node 6579615623
+  Step 31 @ node 6066819696
+  Step 32 @ node 7201339578
+  Step 33 @ node 7201339525
+  Step 34 @ node 11459550955
+  Step 35 @ node 7201339529
+  Step 36 @ node 7203491717
+  Step 37 @ node 11459550941
+  Step 38 @ node 7203483736
+  Step 39 @ node 7205886355
+  Step 40 @ node 670595850
+  Step 41 @ node 6574925404
+  Step 42 @ node 7752495749
+  Step 43 @ node 7752495743
+  Step 44 @ node 6638395203
+  Step 45 @ node 6638395253
+  Step 46 @ node 6638395166
+  Step 47 @ node 6638395116
+  Step 48 @ node 6638395119
+  Step 49 @ node 6638395121
+  Step 50 @ node 6638395128
+  Step 51 @ node 6638395134
+  Step 52 @ node 6638395135
+    - Delivery: Order ORD-32 - 5x Medium_Item
+    - Delivery: Order ORD-32 - 6x Heavy_Item
+    - Delivery: Order ORD-32 - 4x Light_Item
+  Step 53 @ node 6638395134
+  Step 54 @ node 6638395128
+  Step 55 @ node 6638395121
+  Step 56 @ node 6638395120
+  Step 57 @ node 6638395124
+  Step 58 @ node 6638395252
+  Step 59 @ node 6638353011
+  Step 60 @ node 6638395246
+  Step 61 @ node 6638395319
+  Step 62 @ node 6638395347
+  Step 63 @ node 6646761605
+  Step 64 @ node 7201339618
+  Step 65 @ node 7201339667
+  Step 66 @ node 7203491927
+  Step 67 @ node 6574925402
+  Step 68 @ node 7148445415
+  Step 69 @ node 7148445409
+  Step 70 @ node 6579766737
+  Step 71 @ node 7201339406
+  Step 72 @ node 12389703666
+  Step 73 @ node 7201322168
+  Step 74 @ node 7201339184
+  Step 75 @ node 7201339192
+  Step 76 @ node 7147185146
+  Step 77 @ node 7201339207
+  Step 78 @ node 7201339214
+  Step 79 @ node 7184879757
+  Step 80 @ node 7147185104
+  Step 81 @ node 273005239
+  Step 82 @ node 6584163945
+  Step 83 @ node 6584163947
+  Step 84 @ node 273005238
+  Step 85 @ node 273005237
+  Step 86 @ node 7151388488
+  Step 87 @ node 7151360559
+  Step 88 @ node 7147185203
+    - Delivery: Order ORD-16 - 5x Light_Item
+    - Delivery: Order ORD-16 - 4x Heavy_Item
+    - Delivery: Order ORD-16 - 4x Medium_Item
+  Step 89 @ node 7151360558
+    - Delivery: Order ORD-33 - 6x Heavy_Item
+    - Delivery: Order ORD-33 - 5x Light_Item
+    - Delivery: Order ORD-33 - 5x Medium_Item
+  Step 90 @ node 6586496159
+  Step 91 @ node 7147185201
+  Step 92 @ node 273004093
+  Step 93 @ node 7151388423
+  Step 94 @ node 7151388422
+  Step 95 @ node 7147185192
+  Step 96 @ node 10770438050
+  Step 97 @ node 7184880107
+  Step 98 @ node 6584163847
+  Step 99 @ node 7147185205
+  Step 100 @ node 6586018514
+  Step 101 @ node 487061375
+  Step 102 @ node 6584163825
+  Step 103 @ node 6584163820
+    - Delivery: Order ORD-1 - 4x Light_Item
+    - Delivery: Order ORD-1 - 6x Medium_Item
+    - Delivery: Order ORD-1 - 5x Heavy_Item
+  Step 104 @ node 6584163821
+    - Delivery: Order ORD-11 - 6x Medium_Item
+    - Delivery: Order ORD-11 - 3x Light_Item
+    - Delivery: Order ORD-11 - 4x Heavy_Item
+  Step 105 @ node 6584163817
+  Step 106 @ node 6584163810
+  Step 107 @ node 6584163811
+  Step 108 @ node 6584163809
+  Step 109 @ node 6584163804
+  Step 110 @ node 6584163806
+    - Delivery: Order ORD-21 - 6x Light_Item
+    - Delivery: Order ORD-21 - 5x Medium_Item
+    - Delivery: Order ORD-21 - 5x Heavy_Item
+  Step 111 @ node 6584163804
+  Step 112 @ node 7148060882
+  Step 113 @ node 7148079589
+    - Delivery: Order ORD-17 - 5x Heavy_Item
+    - Delivery: Order ORD-17 - 4x Medium_Item
+    - Delivery: Order ORD-17 - 6x Light_Item
+  Step 114 @ node 6584163831
+  Step 115 @ node 6584163826
+  Step 116 @ node 6586018499
+  Step 117 @ node 6586018492
+  Step 118 @ node 6594187457
+    - Delivery: Order ORD-7 - 3x Heavy_Item
+    - Delivery: Order ORD-7 - 3x Medium_Item
+    - Delivery: Order ORD-7 - 3x Light_Item
+  Step 119 @ node 6584163836
+  Step 120 @ node 6586018487
+    - Delivery: Order ORD-48 - 4x Medium_Item
+    - Delivery: Order ORD-48 - 4x Light_Item
+    - Delivery: Order ORD-48 - 4x Heavy_Item
+  Step 121 @ node 6275492289
+  Step 122 @ node 6586018496
+  Step 123 @ node 6584163821
+  Step 124 @ node 6584163823
+  Step 125 @ node 6584163822
+  Step 126 @ node 6584163824
+  Step 127 @ node 7265058696
+  Step 128 @ node 7265058697
+  Step 129 @ node 6584163871
+  Step 130 @ node 6584156777
+  Step 131 @ node 6584163793
+  Step 132 @ node 7148445488
+    - Delivery: Order ORD-45 - 6x Light_Item
+    - Delivery: Order ORD-45 - 4x Heavy_Item
+    - Delivery: Order ORD-45 - 4x Medium_Item
+  Step 133 @ node 7151360560
+  Step 134 @ node 7151388487
+  Step 135 @ node 7151388448
+  Step 136 @ node 6583668892
+    - Delivery: Order ORD-4 - 6x Medium_Item
+    - Delivery: Order ORD-4 - 6x Heavy_Item
+    - Delivery: Order ORD-4 - 5x Light_Item
+  Step 137 @ node 7148445488
+  Step 138 @ node 7151360560
+  Step 139 @ node 7151388487
+  Step 140 @ node 273005078
+  Step 141 @ node 269971222
+    - Delivery: Order ORD-10 - 6x Light_Item
+    - Delivery: Order ORD-10 - 3x Medium_Item
+    - Delivery: Order ORD-10 - 3x Heavy_Item
+  Step 142 @ node 7151388519
+  Step 143 @ node 6517519314
+  Step 144 @ node 6281690194
+  Step 145 @ node 7151388516
+    - Delivery: Order ORD-23 - 6x Light_Item
+    - Delivery: Order ORD-23 - 4x Medium_Item
+    - Delivery: Order ORD-23 - 3x Heavy_Item
+  Step 146 @ node 6281690193
+  Step 147 @ node 7151388520
+  Step 148 @ node 7151388519
+  Step 149 @ node 6517519314
+  Step 150 @ node 7151388506
+  Step 151 @ node 269971332
+  Step 152 @ node 7151388450
+  Step 153 @ node 7151388447
+  Step 154 @ node 273010647
+  Step 155 @ node 6583668918
+    - Delivery: Order ORD-8 - 4x Heavy_Item
+    - Delivery: Order ORD-8 - 6x Light_Item
+    - Delivery: Order ORD-8 - 6x Medium_Item
+  Step 156 @ node 6583663357
+    - Delivery: Order ORD-6 - 4x Medium_Item
+    - Delivery: Order ORD-6 - 5x Light_Item
+    - Delivery: Order ORD-6 - 3x Heavy_Item
+  Step 157 @ node 7151388447
+  Step 158 @ node 273010647
+  Step 159 @ node 6583668915
+  Step 160 @ node 3297999062
+  Step 161 @ node 6583663363
+  Step 162 @ node 6583668917
+    - Delivery: Order ORD-2 - 4x Light_Item
+    - Delivery: Order ORD-2 - 6x Medium_Item
+    - Delivery: Order ORD-2 - 6x Heavy_Item
+  Step 163 @ node 6583668915
+  Step 164 @ node 3297999062
+  Step 165 @ node 6583663363
+  Step 166 @ node 6583663364
+  Step 167 @ node 6583668885
+  Step 168 @ node 6583668888
+    - Delivery: Order ORD-9 - 3x Heavy_Item
+    - Delivery: Order ORD-9 - 3x Light_Item
+    - Delivery: Order ORD-9 - 3x Medium_Item
+  Step 169 @ node 6583663356
+  Step 170 @ node 6583663364
+  Step 171 @ node 6583663377
+  Step 172 @ node 6583663358
+  Step 173 @ node 6583668905
+  Step 174 @ node 273012928
+  Step 175 @ node 7264995745
+  Step 176 @ node 7698938485
+  Step 177 @ node 7264995731
+  Step 178 @ node 7264995730
+  Step 179 @ node 6580084635
+  Step 180 @ node 6575034500
+    - Delivery: Order ORD-37 - 4x Heavy_Item
+    - Delivery: Order ORD-37 - 6x Light_Item
+    - Delivery: Order ORD-37 - 5x Medium_Item
+  Step 181 @ node 6584155090
+  Step 182 @ node 6575034496
+    - Delivery: Order ORD-44 - 3x Medium_Item
+    - Delivery: Order ORD-44 - 6x Heavy_Item
+    - Delivery: Order ORD-44 - 3x Light_Item
+  Step 183 @ node 6584155092
+  Step 184 @ node 269975679
+  Step 185 @ node 7149219797
+  Step 186 @ node 7148445476
+  Step 187 @ node 6584163881
+  Step 188 @ node 7151388413
+  Step 189 @ node 7265058694
+    - Delivery: Order ORD-28 - 6x Light_Item
+    - Delivery: Order ORD-28 - 5x Medium_Item
+    - Delivery: Order ORD-28 - 3x Heavy_Item
+  Step 190 @ node 7265058695
+  Step 191 @ node 7265058698
+  Step 192 @ node 6589272372
+  Step 193 @ node 6589272350
+  Step 194 @ node 7265000083
+  Step 195 @ node 7700101521
+  Step 196 @ node 7700101526
+  Step 197 @ node 7698938533
+  Step 198 @ node 269954498
+  Step 199 @ node 269954883
+  Step 200 @ node 6275390808
+  Step 201 @ node 3332300272
+    - Delivery: Order ORD-25 - 5x Medium_Item
+    - Delivery: Order ORD-25 - 5x Heavy_Item
+    - Delivery: Order ORD-25 - 5x Light_Item
+  Step 202 @ node 270129642
+  Step 203 @ node 270129394
+  Step 204 @ node 270129567
+  Step 205 @ node 7698938643
+  Step 206 @ node 7698938639
+  Step 207 @ node 7698938645
+  Step 208 @ node 7698938638
+  Step 209 @ node 7698938637
+  Step 210 @ node 273024053
+  Step 211 @ node 6580084589
+  Step 212 @ node 7698938634
+  Step 213 @ node 7698938635
+  Step 214 @ node 7148445450
+  Step 215 @ node 7698938608
+  Step 216 @ node 7270664128
+  Step 217 @ node 7698938579
+  Step 218 @ node 7149195448
+  Step 219 @ node 7149195447
+  Step 220 @ node 6581987461
+  Step 221 @ node 7259453133
+  Step 222 @ node 7259453135
+  Step 223 @ node 7201339715
+  Step 224 @ node 7148445438
+  Step 225 @ node 6574913202
+  Step 226 @ node 7201339455
+  Step 227 @ node 7201339453
+  Step 228 @ node 7203492096
+  Step 229 @ node 7201339472
+  Step 230 @ node 6574982712
+  Step 231 @ node 7201339488
+  Step 232 @ node 7201339502
+  Step 233 @ node 7872488961
+  Step 234 @ node 7872488963
+  Step 235 @ node 268112783
+  Step 236 @ node 7206789821
+  Step 237 @ node 7206789806
+  Step 238 @ node 7206790002
+  Step 239 @ node 7206789855
+  Step 240 @ node 7206789992
+  Step 241 @ node 269120320
+  Step 242 @ node 268112786
+  Step 243 @ node 503842194
+  Step 244 @ node 6574887713
+  Step 245 @ node 7208831071
+  Step 246 @ node 7208831017
+  Step 247 @ node 7208831007
+  Step 248 @ node 7208831013
+  Step 249 @ node 29542602
+
+ROUTE 2:
+--------------------
+Vehicle: HeavyTruck_WH-2_1
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 31272168
+  Step 2 @ node 31272168
+    + Pickup: WH WH-2 - 95x Medium_Item
+    + Pickup: WH WH-2 - 99x Heavy_Item
+    + Pickup: WH WH-2 - 104x Light_Item
+  Step 3 @ node 7166010681
+  Step 4 @ node 512933850
+  Step 5 @ node 6589377028
+  Step 6 @ node 9199804454
+  Step 7 @ node 9199804457
+  Step 8 @ node 9531901784
+  Step 9 @ node 6584504032
+  Step 10 @ node 6360867218
+  Step 11 @ node 10895601596
+  Step 12 @ node 10895601595
+    - Delivery: Order ORD-35 - 5x Medium_Item
+    - Delivery: Order ORD-35 - 4x Light_Item
+    - Delivery: Order ORD-35 - 4x Heavy_Item
+  Step 13 @ node 10895601596
+  Step 14 @ node 6360867218
+  Step 15 @ node 10895601611
+  Step 16 @ node 10895601612
+  Step 17 @ node 9531901783
+  Step 18 @ node 6584503687
+  Step 19 @ node 3971833514
+  Step 20 @ node 6584504139
+  Step 21 @ node 6360809970
+  Step 22 @ node 9197822464
+  Step 23 @ node 3944712416
+  Step 24 @ node 6753628569
+  Step 25 @ node 3944712313
+  Step 26 @ node 3969237573
+  Step 27 @ node 12453186017
+  Step 28 @ node 3944710950
+  Step 29 @ node 7041755888
+  Step 30 @ node 9197822463
+  Step 31 @ node 6774644719
+  Step 32 @ node 12388231201
+  Step 33 @ node 3944712420
+    - Delivery: Order ORD-30 - 4x Heavy_Item
+    - Delivery: Order ORD-30 - 3x Medium_Item
+    - Delivery: Order ORD-30 - 4x Light_Item
+  Step 34 @ node 3944712402
+  Step 35 @ node 3944712536
+  Step 36 @ node 270746292
+  Step 37 @ node 9197809709
+  Step 38 @ node 9205260925
+  Step 39 @ node 270746307
+  Step 40 @ node 595346941
+  Step 41 @ node 8767866860
+  Step 42 @ node 8767866874
+  Step 43 @ node 1853256509
+  Step 44 @ node 8767678855
+  Step 45 @ node 4989953650
+  Step 46 @ node 8767678850
+  Step 47 @ node 3860685666
+  Step 48 @ node 3860685665
+  Step 49 @ node 6579765427
+  Step 50 @ node 6579765426
+  Step 51 @ node 270758122
+  Step 52 @ node 270758121
+  Step 53 @ node 4322363906
+  Step 54 @ node 6276122550
+  Step 55 @ node 4322363897
+  Step 56 @ node 270753785
+  Step 57 @ node 6580098268
+  Step 58 @ node 6580098263
+  Step 59 @ node 6290192396
+    - Delivery: Order ORD-41 - 3x Light_Item
+    - Delivery: Order ORD-41 - 4x Heavy_Item
+    - Delivery: Order ORD-41 - 4x Medium_Item
+  Step 60 @ node 6507537734
+  Step 61 @ node 6331284282
+  Step 62 @ node 270753292
+  Step 63 @ node 6580098177
+  Step 64 @ node 6148345916
+  Step 65 @ node 8767857590
+  Step 66 @ node 4988391829
+  Step 67 @ node 10591151232
+  Step 68 @ node 6510674850
+  Step 69 @ node 8785668139
+  Step 70 @ node 1853257284
+  Step 71 @ node 8767866817
+  Step 72 @ node 270753300
+  Step 73 @ node 324251953
+  Step 74 @ node 31272168
+  Step 75 @ node 7166010681
+  Step 76 @ node 512933850
+  Step 77 @ node 512933838
+  Step 78 @ node 6580084655
+  Step 79 @ node 7148060881
+  Step 80 @ node 6580084652
+  Step 81 @ node 6589272372
+  Step 82 @ node 6589272350
+  Step 83 @ node 7265000083
+  Step 84 @ node 7700101521
+  Step 85 @ node 7700101526
+  Step 86 @ node 7698938533
+  Step 87 @ node 7698938544
+  Step 88 @ node 270130170
+  Step 89 @ node 270131678
+  Step 90 @ node 6581226541
+  Step 91 @ node 7166934466
+  Step 92 @ node 6581338949
+  Step 93 @ node 273027395
+  Step 94 @ node 6581338948
+    - Delivery: Order ORD-34 - 3x Medium_Item
+    - Delivery: Order ORD-34 - 5x Heavy_Item
+    - Delivery: Order ORD-34 - 5x Light_Item
+  Step 95 @ node 273027395
+  Step 96 @ node 6581338949
+  Step 97 @ node 269972241
+  Step 98 @ node 6580084599
+  Step 99 @ node 7698938542
+  Step 100 @ node 6584138325
+  Step 101 @ node 2501935832
+  Step 102 @ node 273023735
+  Step 103 @ node 273024053
+  Step 104 @ node 6580084589
+  Step 105 @ node 7698938634
+  Step 106 @ node 7698938635
+  Step 107 @ node 7148445450
+  Step 108 @ node 7698938608
+  Step 109 @ node 7270664128
+    - Delivery: Order ORD-43 - 3x Heavy_Item
+    - Delivery: Order ORD-43 - 5x Light_Item
+    - Delivery: Order ORD-43 - 6x Medium_Item
+  Step 110 @ node 7270664121
+  Step 111 @ node 7698938512
+  Step 112 @ node 7148445448
+  Step 113 @ node 6746201105
+  Step 114 @ node 6584417603
+    - Delivery: Order ORD-15 - 3x Heavy_Item
+    - Delivery: Order ORD-15 - 6x Light_Item
+    - Delivery: Order ORD-15 - 6x Medium_Item
+  Step 115 @ node 269971713
+  Step 116 @ node 6583668957
+  Step 117 @ node 273005778
+  Step 118 @ node 6583668984
+    - Delivery: Order ORD-19 - 5x Heavy_Item
+    - Delivery: Order ORD-19 - 5x Light_Item
+    - Delivery: Order ORD-19 - 4x Medium_Item
+  Step 119 @ node 6583668986
+  Step 120 @ node 6583668982
+  Step 121 @ node 6586237394
+    - Delivery: Order ORD-47 - 5x Medium_Item
+    - Delivery: Order ORD-47 - 6x Light_Item
+    - Delivery: Order ORD-47 - 6x Heavy_Item
+  Step 122 @ node 6586237392
+  Step 123 @ node 6586237393
+  Step 124 @ node 6583668957
+  Step 125 @ node 6594187472
+  Step 126 @ node 273006035
+  Step 127 @ node 6583668970
+  Step 128 @ node 6583668969
+  Step 129 @ node 7203492160
+    - Delivery: Order ORD-5 - 4x Light_Item
+    - Delivery: Order ORD-5 - 4x Medium_Item
+    - Delivery: Order ORD-5 - 3x Heavy_Item
+  Step 130 @ node 6583668969
+  Step 131 @ node 1641650751
+  Step 132 @ node 6067200918
+  Step 133 @ node 273006942
+  Step 134 @ node 273005954
+  Step 135 @ node 7148445412
+  Step 136 @ node 6579588959
+  Step 137 @ node 7201338941
+  Step 138 @ node 7201339061
+  Step 139 @ node 7201338943
+  Step 140 @ node 7201339066
+  Step 141 @ node 7201338963
+  Step 142 @ node 7201338981
+  Step 143 @ node 6579766745
+  Step 144 @ node 7201338979
+  Step 145 @ node 7201338975
+    - Delivery: Order ORD-20 - 6x Heavy_Item
+    - Delivery: Order ORD-20 - 6x Medium_Item
+    - Delivery: Order ORD-20 - 4x Light_Item
+  Step 146 @ node 7205911100
+  Step 147 @ node 7201338976
+  Step 148 @ node 7201338977
+  Step 149 @ node 6579766769
+  Step 150 @ node 6579766780
+  Step 151 @ node 6579766784
+  Step 152 @ node 7201339134
+  Step 153 @ node 7201339376
+  Step 154 @ node 7201339362
+  Step 155 @ node 7201339007
+  Step 156 @ node 7201339005
+  Step 157 @ node 7201339006
+  Step 158 @ node 7201339299
+  Step 159 @ node 32537907
+  Step 160 @ node 32537886
+  Step 161 @ node 7208831120
+  Step 162 @ node 32537880
+  Step 163 @ node 270417681
+  Step 164 @ node 269459681
+  Step 165 @ node 7208831128
+    - Delivery: Order ORD-50 - 6x Heavy_Item
+    - Delivery: Order ORD-50 - 3x Medium_Item
+    - Delivery: Order ORD-50 - 4x Light_Item
+  Step 166 @ node 269459681
+  Step 167 @ node 7208831111
+  Step 168 @ node 7208831105
+  Step 169 @ node 7208831110
+  Step 170 @ node 7208831113
+  Step 171 @ node 7208831112
+  Step 172 @ node 12092887072
+  Step 173 @ node 12092887069
+  Step 174 @ node 267169452
+  Step 175 @ node 267816227
+  Step 176 @ node 32537761
+  Step 177 @ node 32537766
+  Step 178 @ node 32537798
+    - Delivery: Order ORD-42 - 4x Medium_Item
+    - Delivery: Order ORD-42 - 6x Heavy_Item
+    - Delivery: Order ORD-42 - 6x Light_Item
+  Step 179 @ node 267816225
+  Step 180 @ node 32537805
+  Step 181 @ node 7208819971
+  Step 182 @ node 7208831833
+  Step 183 @ node 7208831826
+  Step 184 @ node 269289698
+  Step 185 @ node 7208830817
+  Step 186 @ node 12449575214
+  Step 187 @ node 7208830791
+  Step 188 @ node 32537675
+  Step 189 @ node 7208830800
+  Step 190 @ node 302203640
+  Step 191 @ node 7208830854
+  Step 192 @ node 7651678459
+  Step 193 @ node 5441349325
+  Step 194 @ node 5441349326
+  Step 195 @ node 6586285276
+  Step 196 @ node 7651678407
+  Step 197 @ node 7651678431
+  Step 198 @ node 32537577
+  Step 199 @ node 6080935230
+  Step 200 @ node 267612006
+  Step 201 @ node 271200844
+  Step 202 @ node 5631468790
+  Step 203 @ node 5631468796
+  Step 204 @ node 11304115858
+    - Delivery: Order ORD-46 - 5x Heavy_Item
+    - Delivery: Order ORD-46 - 4x Light_Item
+    - Delivery: Order ORD-46 - 5x Medium_Item
+  Step 205 @ node 11304115852
+  Step 206 @ node 8863115658
+  Step 207 @ node 6570566402
+  Step 208 @ node 12390312864
+  Step 209 @ node 7207173191
+  Step 210 @ node 5398528182
+  Step 211 @ node 678457936
+  Step 212 @ node 33471125
+  Step 213 @ node 284140798
+  Step 214 @ node 7155509167
+  Step 215 @ node 7188563152
+  Step 216 @ node 8863084608
+  Step 217 @ node 7147185022
+  Step 218 @ node 7147185011
+  Step 219 @ node 7147185007
+  Step 220 @ node 7188563158
+  Step 221 @ node 7188563130
+  Step 222 @ node 7188563141
+  Step 223 @ node 7147185209
+  Step 224 @ node 7653646177
+  Step 225 @ node 7147185156
+  Step 226 @ node 7147185059
+  Step 227 @ node 7147185052
+  Step 228 @ node 7184834563
+  Step 229 @ node 6538687292
+  Step 230 @ node 10770438054
+  Step 231 @ node 269290398
+  Step 232 @ node 8213708454
+  Step 233 @ node 6584163927
+  Step 234 @ node 7201296739
+  Step 235 @ node 7151388469
+  Step 236 @ node 6584417639
+  Step 237 @ node 6584163965
+  Step 238 @ node 6584163960
+  Step 239 @ node 8274491942
+  Step 240 @ node 6594187476
+    - Delivery: Order ORD-49 - 5x Light_Item
+    - Delivery: Order ORD-49 - 4x Medium_Item
+    - Delivery: Order ORD-49 - 4x Heavy_Item
+  Step 241 @ node 8274491942
+  Step 242 @ node 6584163960
+  Step 243 @ node 7151388469
+  Step 244 @ node 6584417639
+  Step 245 @ node 6584417635
+  Step 246 @ node 6584413775
+  Step 247 @ node 269973175
+  Step 248 @ node 7148421082
+  Step 249 @ node 8234729321
+  Step 250 @ node 6582123182
+  Step 251 @ node 7201339681
+  Step 252 @ node 7201339654
+  Step 253 @ node 7201339640
+  Step 254 @ node 7652813304
+  Step 255 @ node 6646761615
+  Step 256 @ node 6646761616
+  Step 257 @ node 8521654640
+  Step 258 @ node 8521654639
+  Step 259 @ node 6646761612
+  Step 260 @ node 6646758466
+  Step 261 @ node 6644317520
+  Step 262 @ node 6644317522
+  Step 263 @ node 6644317523
+    - Delivery: Order ORD-22 - 5x Light_Item
+    - Delivery: Order ORD-22 - 4x Heavy_Item
+    - Delivery: Order ORD-22 - 4x Medium_Item
+  Step 264 @ node 6644317522
+  Step 265 @ node 6644317520
+  Step 266 @ node 6644263552
+  Step 267 @ node 6644317621
+  Step 268 @ node 6644317623
+  Step 269 @ node 6644317455
+  Step 270 @ node 6644317454
+  Step 271 @ node 10076465276
+  Step 272 @ node 10076465277
+  Step 273 @ node 6644317419
+  Step 274 @ node 10076465279
+  Step 275 @ node 6644317424
+  Step 276 @ node 6644317366
+    - Delivery: Order ORD-24 - 4x Medium_Item
+    - Delivery: Order ORD-24 - 4x Heavy_Item
+    - Delivery: Order ORD-24 - 5x Light_Item
+  Step 277 @ node 6644317424
+  Step 278 @ node 6644317417
+  Step 279 @ node 6644317418
+  Step 280 @ node 6644317410
+  Step 281 @ node 6644317430
+  Step 282 @ node 6644317403
+  Step 283 @ node 6644317369
+  Step 284 @ node 6646761938
+  Step 285 @ node 6644317334
+  Step 286 @ node 6646761953
+  Step 287 @ node 6646761668
+  Step 288 @ node 6644273381
+  Step 289 @ node 6644317187
+  Step 290 @ node 6646761666
+  Step 291 @ node 6646761665
+  Step 292 @ node 6646761664
+  Step 293 @ node 6646761663
+  Step 294 @ node 7048879247
+  Step 295 @ node 317160191
+  Step 296 @ node 6600445168
+  Step 297 @ node 6600445166
+  Step 298 @ node 6605746039
+    - Delivery: Order ORD-29 - 5x Light_Item
+    - Delivery: Order ORD-29 - 3x Medium_Item
+    - Delivery: Order ORD-29 - 4x Heavy_Item
+  Step 299 @ node 6600445160
+  Step 300 @ node 6600445167
+  Step 301 @ node 8424998479
+  Step 302 @ node 765279723
+  Step 303 @ node 765279722
+  Step 304 @ node 6605746193
+  Step 305 @ node 6605746194
+  Step 306 @ node 6605745914
+  Step 307 @ node 317160486
+  Step 308 @ node 7048879240
+  Step 309 @ node 1893912336
+  Step 310 @ node 603159270
+  Step 311 @ node 6594809744
+  Step 312 @ node 6066663913
+  Step 313 @ node 6594370408
+  Step 314 @ node 317845465
+  Step 315 @ node 6510307804
+  Step 316 @ node 8227046382
+  Step 317 @ node 6603246573
+  Step 318 @ node 6066661958
+  Step 319 @ node 6287624901
+  Step 320 @ node 6287624902
+    - Delivery: Order ORD-18 - 4x Medium_Item
+    - Delivery: Order ORD-18 - 3x Heavy_Item
+    - Delivery: Order ORD-18 - 6x Light_Item
+  Step 321 @ node 6517615540
+  Step 322 @ node 6517615532
+  Step 323 @ node 6517459793
+  Step 324 @ node 6517624846
+  Step 325 @ node 6605210299
+  Step 326 @ node 6076965579
+  Step 327 @ node 384790813
+  Step 328 @ node 6066663921
+  Step 329 @ node 6076965577
+  Step 330 @ node 384790766
+  Step 331 @ node 6517438059
+  Step 332 @ node 6605198947
+  Step 333 @ node 7206774353
+  Step 334 @ node 7206789911
+  Step 335 @ node 7206789917
+  Step 336 @ node 7206789895
+  Step 337 @ node 7206789817
+  Step 338 @ node 7206789829
+  Step 339 @ node 8010972133
+  Step 340 @ node 7201339585
+  Step 341 @ node 7201339578
+  Step 342 @ node 7201339525
+  Step 343 @ node 11459550955
+  Step 344 @ node 7201339529
+  Step 345 @ node 7203491717
+  Step 346 @ node 11459550941
+  Step 347 @ node 7203483736
+  Step 348 @ node 7205886355
+  Step 349 @ node 670595850
+  Step 350 @ node 6077271673
+  Step 351 @ node 6582123169
+  Step 352 @ node 6582123168
+  Step 353 @ node 6582123159
+  Step 354 @ node 6582123127
+  Step 355 @ node 7695490104
+  Step 356 @ node 7695490105
+  Step 357 @ node 6582123103
+  Step 358 @ node 12057391812
+  Step 359 @ node 12057391804
+  Step 360 @ node 6583668989
+  Step 361 @ node 6583668991
+  Step 362 @ node 6077291808
+  Step 363 @ node 269840608
+  Step 364 @ node 3131165922
+  Step 365 @ node 6584011287
+  Step 366 @ node 6584011286
+  Step 367 @ node 273028622
+  Step 368 @ node 6731796915
+  Step 369 @ node 6731796914
+  Step 370 @ node 6731796900
+  Step 371 @ node 6731796906
+  Step 372 @ node 6723954953
+  Step 373 @ node 6723954954
+  Step 374 @ node 6723954955
+  Step 375 @ node 6723954956
+  Step 376 @ node 415415064
+  Step 377 @ node 6727384679
+  Step 378 @ node 6731796901
+  Step 379 @ node 415415001
+  Step 380 @ node 6731796874
+  Step 381 @ node 6731796831
+  Step 382 @ node 6731793146
+  Step 383 @ node 6731796839
+  Step 384 @ node 6731796837
+  Step 385 @ node 6731796836
+  Step 386 @ node 344540537
+  Step 387 @ node 6723972940
+    - Delivery: Order ORD-26 - 5x Medium_Item
+    - Delivery: Order ORD-26 - 4x Heavy_Item
+    - Delivery: Order ORD-26 - 4x Light_Item
+  Step 388 @ node 6727384188
+  Step 389 @ node 6731796835
+  Step 390 @ node 6731796834
+  Step 391 @ node 6731796837
+  Step 392 @ node 6731796839
+  Step 393 @ node 6731793146
+  Step 394 @ node 344523314
+  Step 395 @ node 6731796873
+  Step 396 @ node 6731796872
+  Step 397 @ node 6731796871
+  Step 398 @ node 6731796868
+  Step 399 @ node 344523925
+  Step 400 @ node 6622319332
+  Step 401 @ node 6622319338
+  Step 402 @ node 6622319341
+  Step 403 @ node 344523926
+  Step 404 @ node 6622319368
+  Step 405 @ node 6622319364
+    - Delivery: Order ORD-39 - 6x Heavy_Item
+    - Delivery: Order ORD-39 - 3x Medium_Item
+    - Delivery: Order ORD-39 - 6x Light_Item
+  Step 406 @ node 6622319368
+  Step 407 @ node 344523926
+  Step 408 @ node 6474921172
+  Step 409 @ node 6634834897
+  Step 410 @ node 344540722
+  Step 411 @ node 6474460334
+  Step 412 @ node 6474921168
+  Step 413 @ node 6622317900
+  Step 414 @ node 344529717
+  Step 415 @ node 6622319309
+  Step 416 @ node 6622319308
+    - Delivery: Order ORD-40 - 4x Heavy_Item
+    - Delivery: Order ORD-40 - 4x Light_Item
+    - Delivery: Order ORD-40 - 5x Medium_Item
+  Step 417 @ node 6622319309
+  Step 418 @ node 6453976779
+  Step 419 @ node 6453976778
+  Step 420 @ node 669144529
+  Step 421 @ node 669144527
+  Step 422 @ node 669144502
+  Step 423 @ node 6622317897
+  Step 424 @ node 6622319292
+  Step 425 @ node 6627737603
+  Step 426 @ node 669144492
+  Step 427 @ node 669144503
+  Step 428 @ node 317154026
+  Step 429 @ node 6275390684
+  Step 430 @ node 6731793145
+  Step 431 @ node 6731793171
+  Step 432 @ node 6731793176
+  Step 433 @ node 6731796912
+  Step 434 @ node 6731796911
+  Step 435 @ node 6584011279
+  Step 436 @ node 6584011278
+  Step 437 @ node 6584011256
+  Step 438 @ node 6584011254
+  Step 439 @ node 6584011244
+  Step 440 @ node 11768604697
+  Step 441 @ node 6584011248
+  Step 442 @ node 6584011242
+  Step 443 @ node 11768604747
+  Step 444 @ node 11768604742
+  Step 445 @ node 11768604737
+  Step 446 @ node 11768604709
+  Step 447 @ node 6583980241
+  Step 448 @ node 6581325011
+  Step 449 @ node 3968896941
+  Step 450 @ node 7166934466
+  Step 451 @ node 6581338949
+  Step 452 @ node 269972241
+  Step 453 @ node 6580084599
+  Step 454 @ node 7698938542
+  Step 455 @ node 7698990870
+  Step 456 @ node 6575034490
+  Step 457 @ node 6580084664
+  Step 458 @ node 6583980237
+  Step 459 @ node 6575034491
+  Step 460 @ node 6583980238
+  Step 461 @ node 7265000083
+  Step 462 @ node 7700101521
+  Step 463 @ node 7700101518
+  Step 464 @ node 7700101515
+  Step 465 @ node 8010777007
+  Step 466 @ node 8010894138
+  Step 467 @ node 8010894113
+  Step 468 @ node 6276754446
+  Step 469 @ node 7166010645
+  Step 470 @ node 324252330
+  Step 471 @ node 7166010681
+  Step 472 @ node 512933850
+  Step 473 @ node 6589377028
+  Step 474 @ node 9199804454
+  Step 475 @ node 9199804457
+  Step 476 @ node 9531901784
+  Step 477 @ node 6584504032
+  Step 478 @ node 6360867218
+  Step 479 @ node 10895601611
+  Step 480 @ node 10895601612
+  Step 481 @ node 9531901783
+  Step 482 @ node 6584503687
+  Step 483 @ node 9197822425
+  Step 484 @ node 9197822422
+  Step 485 @ node 6584503688
+  Step 486 @ node 6129428117
+  Step 487 @ node 3971833511
+  Step 488 @ node 3971833497
+  Step 489 @ node 3971833503
+  Step 490 @ node 8767500008
+  Step 491 @ node 8767509095
+  Step 492 @ node 8767509040
+  Step 493 @ node 12453048219
+  Step 494 @ node 12453048220
+  Step 495 @ node 12453048213
+  Step 496 @ node 12453048198
+  Step 497 @ node 11189997935
+  Step 498 @ node 11190021542
+  Step 499 @ node 12453048174
+  Step 500 @ node 3946660302
+  Step 501 @ node 3946660246
+  Step 502 @ node 6505535355
+  Step 503 @ node 6569947140
+  Step 504 @ node 6505535332
+  Step 505 @ node 6505535329
+  Step 506 @ node 3946660102
+  Step 507 @ node 6569946168
+  Step 508 @ node 6505378901
+  Step 509 @ node 3946660078
+  Step 510 @ node 6574486078
+  Step 511 @ node 6505422286
+  Step 512 @ node 4322362555
+  Step 513 @ node 3946659926
+  Step 514 @ node 6505378907
+  Step 515 @ node 3946659873
+  Step 516 @ node 3946659842
+  Step 517 @ node 6505369200
+  Step 518 @ node 3946659832
+  Step 519 @ node 6574486024
+  Step 520 @ node 6574486019
+  Step 521 @ node 6574484362
+    - Delivery: Order ORD-3 - 4x Light_Item
+    - Delivery: Order ORD-3 - 5x Medium_Item
+    - Delivery: Order ORD-3 - 6x Heavy_Item
+  Step 522 @ node 6574486019
+  Step 523 @ node 6574486020
+  Step 524 @ node 3946659803
+  Step 525 @ node 3946659776
+  Step 526 @ node 6505308532
+  Step 527 @ node 3946659641
+  Step 528 @ node 6568198992
+  Step 529 @ node 11931574202
+  Step 530 @ node 11931574201
+  Step 531 @ node 10895820962
+  Step 532 @ node 9530207140
+  Step 533 @ node 6487070999
+  Step 534 @ node 3986774731
+  Step 535 @ node 12453048174
+  Step 536 @ node 3946660302
+  Step 537 @ node 9565973878
+  Step 538 @ node 9565973876
+  Step 539 @ node 12453048265
+  Step 540 @ node 12453048263
+  Step 541 @ node 12453048296
+  Step 542 @ node 10842162073
+  Step 543 @ node 6586977532
+  Step 544 @ node 9530207367
+  Step 545 @ node 9530207343
+  Step 546 @ node 12453048297
+  Step 547 @ node 12672629874
+  Step 548 @ node 7784973924
+  Step 549 @ node 270746307
+  Step 550 @ node 595346941
+  Step 551 @ node 8767866860
+  Step 552 @ node 8785668079
+  Step 553 @ node 1853257284
+  Step 554 @ node 8767866817
+  Step 555 @ node 270753300
+  Step 556 @ node 324251953
+  Step 557 @ node 31272168
+
+ROUTE 3:
+--------------------
+Vehicle: LightVan_WH-1_1
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 29542602
+  Step 2 @ node 29542602
+    + Pickup: WH WH-1 - 10x Medium_Item
+    + Pickup: WH WH-1 - 14x Heavy_Item
+    + Pickup: WH WH-1 - 13x Light_Item
+  Step 3 @ node 7208831013
+  Step 4 @ node 269119643
+  Step 5 @ node 7208831016
+  Step 6 @ node 269119699
+  Step 7 @ node 32537714
+  Step 8 @ node 7154077460
+  Step 9 @ node 7154077454
+  Step 10 @ node 6583698953
+  Step 11 @ node 7881131233
+  Step 12 @ node 6584314329
+  Step 13 @ node 7182026071
+  Step 14 @ node 1652878093
+  Step 15 @ node 5441349326
+  Step 16 @ node 6586285276
+  Step 17 @ node 7651678407
+  Step 18 @ node 7651678431
+  Step 19 @ node 32537577
+  Step 20 @ node 272476496
+  Step 21 @ node 7207173191
+  Step 22 @ node 5398528182
+  Step 23 @ node 678457936
+  Step 24 @ node 33471125
+  Step 25 @ node 284140798
+  Step 26 @ node 7155509167
+  Step 27 @ node 7188563197
+  Step 28 @ node 6586681822
+  Step 29 @ node 7198313611
+  Step 30 @ node 7198313608
+  Step 31 @ node 7198313607
+  Step 32 @ node 7198313610
+  Step 33 @ node 7198313612
+  Step 34 @ node 272523579
+  Step 35 @ node 7198313618
+  Step 36 @ node 7188563082
+  Step 37 @ node 7188563081
+  Step 38 @ node 7148421063
+  Step 39 @ node 6586157303
+  Step 40 @ node 12404379034
+  Step 41 @ node 6586157290
+  Step 42 @ node 6586157291
+  Step 43 @ node 9199804454
+  Step 44 @ node 9199804457
+  Step 45 @ node 9199804462
+  Step 46 @ node 7148421057
+  Step 47 @ node 324250245
+  Step 48 @ node 324252588
+  Step 49 @ node 677616697
+  Step 50 @ node 3664608054
+  Step 51 @ node 32521406
+  Step 52 @ node 324251953
+  Step 53 @ node 31272168
+    + Pickup: WH WH-2 - 6x Medium_Item
+  Step 54 @ node 7166010681
+  Step 55 @ node 512933850
+  Step 56 @ node 512933838
+  Step 57 @ node 6580084655
+  Step 58 @ node 7148079589
+  Step 59 @ node 6584163831
+  Step 60 @ node 6584163826
+  Step 61 @ node 6586018499
+  Step 62 @ node 6586018492
+  Step 63 @ node 6594187457
+  Step 64 @ node 2265672671
+  Step 65 @ node 32521694
+  Step 66 @ node 7198313475
+  Step 67 @ node 7198313470
+  Step 68 @ node 7198313436
+  Step 69 @ node 7198313437
+  Step 70 @ node 7198313398
+  Step 71 @ node 7198313402
+  Step 72 @ node 7198313412
+    - Delivery: Order ORD-12 - 6x Medium_Item
+    - Delivery: Order ORD-12 - 5x Heavy_Item
+    - Delivery: Order ORD-12 - 4x Light_Item
+  Step 73 @ node 7198313417
+  Step 74 @ node 7198313438
+  Step 75 @ node 7198313468
+  Step 76 @ node 7198313473
+  Step 77 @ node 7184879691
+  Step 78 @ node 7184879700
+  Step 79 @ node 7184879709
+  Step 80 @ node 6587054519
+  Step 81 @ node 32538046
+  Step 82 @ node 7184879683
+  Step 83 @ node 7184879688
+  Step 84 @ node 7184879692
+  Step 85 @ node 7201339095
+  Step 86 @ node 7201338913
+  Step 87 @ node 7201339101
+  Step 88 @ node 7201339087
+  Step 89 @ node 7201339062
+  Step 90 @ node 7201339063
+  Step 91 @ node 7201339141
+    - Delivery: Order ORD-36 - 4x Light_Item
+    - Delivery: Order ORD-36 - 6x Medium_Item
+    - Delivery: Order ORD-36 - 6x Heavy_Item
+  Step 92 @ node 6581346421
+  Step 93 @ node 7201338950
+  Step 94 @ node 7201338946
+  Step 95 @ node 270876721
+  Step 96 @ node 7201338945
+  Step 97 @ node 7201338949
+  Step 98 @ node 7201338943
+  Step 99 @ node 7201338932
+  Step 100 @ node 7201338928
+  Step 101 @ node 7201338926
+  Step 102 @ node 7201338927
+  Step 103 @ node 7698938514
+  Step 104 @ node 7698938515
+  Step 105 @ node 7201339791
+  Step 106 @ node 7148445422
+  Step 107 @ node 6583668968
+  Step 108 @ node 7259453134
+  Step 109 @ node 7259453132
+  Step 110 @ node 6583663352
+  Step 111 @ node 7698938585
+  Step 112 @ node 7698938614
+  Step 113 @ node 7270664121
+  Step 114 @ node 7698938512
+  Step 115 @ node 7148445448
+  Step 116 @ node 6746201105
+  Step 117 @ node 6584417603
+  Step 118 @ node 269971713
+    - Delivery: Order ORD-38 - 4x Medium_Item
+    - Delivery: Order ORD-38 - 3x Heavy_Item
+    - Delivery: Order ORD-38 - 5x Light_Item
+  Step 119 @ node 6583668957
+  Step 120 @ node 6594187472
+  Step 121 @ node 273006035
+  Step 122 @ node 6583668970
+  Step 123 @ node 6583668969
+  Step 124 @ node 1641650751
+  Step 125 @ node 6067200918
+  Step 126 @ node 7203492159
+  Step 127 @ node 6583668968
+  Step 128 @ node 7259453134
+  Step 129 @ node 7259453135
+  Step 130 @ node 7201339715
+  Step 131 @ node 7148445438
+  Step 132 @ node 6574913202
+  Step 133 @ node 7201339455
+  Step 134 @ node 7201339453
+  Step 135 @ node 7203492096
+  Step 136 @ node 7201339472
+  Step 137 @ node 6574982712
+  Step 138 @ node 7201339488
+  Step 139 @ node 7201339502
+  Step 140 @ node 7872488961
+  Step 141 @ node 7872488963
+  Step 142 @ node 268112783
+  Step 143 @ node 7206789821
+  Step 144 @ node 7206789806
+  Step 145 @ node 7206790002
+  Step 146 @ node 7206789855
+  Step 147 @ node 7206789992
+  Step 148 @ node 269120320
+  Step 149 @ node 268112786
+  Step 150 @ node 503842194
+  Step 151 @ node 6574887713
+  Step 152 @ node 7208831071
+  Step 153 @ node 7208831017
+  Step 154 @ node 7208831007
+  Step 155 @ node 7208831013
+  Step 156 @ node 29542602
+
+ROUTE 4:
+--------------------
+Vehicle: LightVan_WH-1_2
+Distance: 0.00 km
+Steps (sequential):
+  Step 1 @ node 29542602
+  Step 2 @ node 29542602
+    + Pickup: WH WH-1 - 2x Light_Item
+    + Pickup: WH WH-1 - 2x Heavy_Item
+  Step 3 @ node 7208831013
+  Step 4 @ node 269119643
+  Step 5 @ node 7208831016
+  Step 6 @ node 269119699
+  Step 7 @ node 32537714
+  Step 8 @ node 7154077460
+  Step 9 @ node 7154077454
+  Step 10 @ node 6583698953
+  Step 11 @ node 7881131233
+  Step 12 @ node 6584314329
+  Step 13 @ node 7182026071
+  Step 14 @ node 1652878093
+  Step 15 @ node 5441349326
+  Step 16 @ node 6586285276
+  Step 17 @ node 7651678407
+  Step 18 @ node 7651678431
+  Step 19 @ node 32537577
+  Step 20 @ node 272476496
+  Step 21 @ node 7207173191
+  Step 22 @ node 5398528182
+  Step 23 @ node 678457936
+  Step 24 @ node 33471125
+  Step 25 @ node 284140798
+  Step 26 @ node 7155509167
+  Step 27 @ node 7188563197
+  Step 28 @ node 6586681822
+  Step 29 @ node 7198313611
+  Step 30 @ node 7198313608
+  Step 31 @ node 7198313607
+  Step 32 @ node 7198313610
+  Step 33 @ node 7198313612
+  Step 34 @ node 272523579
+  Step 35 @ node 7198313618
+  Step 36 @ node 7188563082
+  Step 37 @ node 7188563081
+  Step 38 @ node 7148421063
+  Step 39 @ node 6586157303
+  Step 40 @ node 12404379034
+  Step 41 @ node 6586157290
+  Step 42 @ node 6586157291
+  Step 43 @ node 9199804454
+  Step 44 @ node 9199804457
+  Step 45 @ node 9199804462
+  Step 46 @ node 7148421057
+  Step 47 @ node 324250245
+  Step 48 @ node 324252588
+  Step 49 @ node 677616697
+  Step 50 @ node 3664608054
+  Step 51 @ node 32521406
+  Step 52 @ node 324251953
+  Step 53 @ node 31272168
+    + Pickup: WH WH-2 - 4x Medium_Item
+    + Pickup: WH WH-2 - 4x Light_Item
+    + Pickup: WH WH-2 - 4x Heavy_Item
+  Step 54 @ node 7166010681
+  Step 55 @ node 512933850
+  Step 56 @ node 512933838
+  Step 57 @ node 6580084655
+  Step 58 @ node 7148060881
+  Step 59 @ node 6580084652
+  Step 60 @ node 6589272372
+  Step 61 @ node 6589272350
+  Step 62 @ node 7265000083
+  Step 63 @ node 7700101521
+  Step 64 @ node 7700101526
+  Step 65 @ node 7698938533
+  Step 66 @ node 7698938544
+  Step 67 @ node 270130170
+  Step 68 @ node 270131678
+  Step 69 @ node 6581226541
+  Step 70 @ node 7698938550
+  Step 71 @ node 3968896919
+  Step 72 @ node 11768604712
+  Step 73 @ node 11768604704
+  Step 74 @ node 6457425086
+  Step 75 @ node 9740806889
+  Step 76 @ node 6628534280
+  Step 77 @ node 9740806869
+  Step 78 @ node 6627843201
+  Step 79 @ node 9740806865
+  Step 80 @ node 344520019
+  Step 81 @ node 6619242683
+  Step 82 @ node 6619242684
+  Step 83 @ node 344520017
+  Step 84 @ node 6619366088
+  Step 85 @ node 6619366086
+    - Delivery: Order ORD-13 - 4x Medium_Item
+    - Delivery: Order ORD-13 - 6x Light_Item
+    - Delivery: Order ORD-13 - 6x Heavy_Item
+  Step 86 @ node 6619366088
+  Step 87 @ node 344520017
+  Step 88 @ node 6619242684
+  Step 89 @ node 6619242683
+  Step 90 @ node 344520019
+  Step 91 @ node 9740806865
+  Step 92 @ node 6627843201
+  Step 93 @ node 9740806869
+  Step 94 @ node 6627843203
+  Step 95 @ node 6113513817
+  Step 96 @ node 317154432
+  Step 97 @ node 669144503
+  Step 98 @ node 317154026
+  Step 99 @ node 6275390684
+  Step 100 @ node 6731793145
+  Step 101 @ node 6731793171
+  Step 102 @ node 6731793176
+  Step 103 @ node 6731796912
+  Step 104 @ node 6731796914
+  Step 105 @ node 6731796900
+  Step 106 @ node 6731796906
+  Step 107 @ node 6077633313
+  Step 108 @ node 415415436
+  Step 109 @ node 7695490106
+  Step 110 @ node 7695490105
+  Step 111 @ node 6582123103
+  Step 112 @ node 6582123102
+  Step 113 @ node 6582123126
+  Step 114 @ node 273019801
+  Step 115 @ node 6077271670
+  Step 116 @ node 273016773
+  Step 117 @ node 6583669011
+  Step 118 @ node 6582123150
+  Step 119 @ node 7149195459
+  Step 120 @ node 7149195415
+  Step 121 @ node 7149195458
+  Step 122 @ node 6581987461
+  Step 123 @ node 7259453133
+  Step 124 @ node 7259453135
+  Step 125 @ node 7201339715
+  Step 126 @ node 7148445438
+  Step 127 @ node 6574913202
+  Step 128 @ node 7201339455
+  Step 129 @ node 7201339453
+  Step 130 @ node 7203492096
+  Step 131 @ node 7201339472
+  Step 132 @ node 6574982712
+  Step 133 @ node 7201339488
+  Step 134 @ node 7201339502
+  Step 135 @ node 7872488961
+  Step 136 @ node 7872488963
+  Step 137 @ node 268112783
+  Step 138 @ node 7206789821
+  Step 139 @ node 7206789806
+  Step 140 @ node 7206790002
+  Step 141 @ node 7206789855
+  Step 142 @ node 7206789992
+  Step 143 @ node 269120320
+  Step 144 @ node 268112786
+  Step 145 @ node 503842194
+  Step 146 @ node 6574887713
+  Step 147 @ node 7208831071
+  Step 148 @ node 7208831017
+  Step 149 @ node 7208831007
+  Step 150 @ node 7208831013
+  Step 151 @ node 29542602
+
+ROUTE 5:
+--------------------
+Vehicle: LightVan_WH-1_3
+Distance: 23.97 km
+Steps (sequential):
+  Step 1 @ node 29542602
+  Step 2 @ node 7208831013
+  Step 3 @ node 269119643
+  Step 4 @ node 7208831016
+  Step 5 @ node 269119699
+  Step 6 @ node 32537714
+  Step 7 @ node 7154077460
+  Step 8 @ node 7154077454
+  Step 9 @ node 6583698953
+  Step 10 @ node 7881131233
+  Step 11 @ node 6584314329
+  Step 12 @ node 7182026071
+  Step 13 @ node 1652878093
+  Step 14 @ node 5441349326
+  Step 15 @ node 6586285276
+  Step 16 @ node 7651678407
+  Step 17 @ node 7651678431
+  Step 18 @ node 32537577
+  Step 19 @ node 272476496
+  Step 20 @ node 7207173191
+  Step 21 @ node 5398528182
+  Step 22 @ node 678457936
+  Step 23 @ node 33471125
+  Step 24 @ node 284140798
+  Step 25 @ node 7155509167
+  Step 26 @ node 7188563197
+  Step 27 @ node 6586681822
+  Step 28 @ node 7198313611
+  Step 29 @ node 7198313608
+  Step 30 @ node 7198313607
+  Step 31 @ node 7198313610
+  Step 32 @ node 7198313612
+  Step 33 @ node 272523579
+  Step 34 @ node 7198313618
+  Step 35 @ node 7188563082
+  Step 36 @ node 7188563081
+  Step 37 @ node 7148421063
+  Step 38 @ node 6586157303
+  Step 39 @ node 12404379034
+  Step 40 @ node 6586157290
+  Step 41 @ node 6586157291
+  Step 42 @ node 9199804454
+  Step 43 @ node 9199804457
+  Step 44 @ node 9199804462
+  Step 45 @ node 7148421057
+  Step 46 @ node 324250245
+  Step 47 @ node 324252588
+  Step 48 @ node 677616697
+  Step 49 @ node 3664608054
+  Step 50 @ node 32521406
+  Step 51 @ node 324251953
+  Step 52 @ node 31272168
+    + Pickup: WH WH-2 - 5x Light_Item
+    + Pickup: WH WH-2 - 4x Medium_Item
+    + Pickup: WH WH-2 - 5x Heavy_Item
+  Step 53 @ node 7166010681
+  Step 54 @ node 512933850
+  Step 55 @ node 512933838
+  Step 56 @ node 6580084655
+  Step 57 @ node 7148060881
+  Step 58 @ node 6580084652
+  Step 59 @ node 6589272372
+  Step 60 @ node 6589272350
+  Step 61 @ node 7265000083
+  Step 62 @ node 7700101521
+  Step 63 @ node 7700101518
+  Step 64 @ node 7700101515
+  Step 65 @ node 8010776993
+  Step 66 @ node 3338227460
+  Step 67 @ node 3338227459
+  Step 68 @ node 6579759252
+  Step 69 @ node 6579759254
+  Step 70 @ node 269976841
+  Step 71 @ node 6101274396
+    - Delivery: Order ORD-31 - 5x Light_Item
+    - Delivery: Order ORD-31 - 4x Medium_Item
+    - Delivery: Order ORD-31 - 5x Heavy_Item
+  Step 72 @ node 269956918
+  Step 73 @ node 269976805
+  Step 74 @ node 6579759265
+  Step 75 @ node 6135804833
+  Step 76 @ node 6579759253
+  Step 77 @ node 6579759251
+  Step 78 @ node 6579759270
+  Step 79 @ node 668896580
+  Step 80 @ node 3338227452
+  Step 81 @ node 8010777002
+  Step 82 @ node 8010777007
+  Step 83 @ node 8010894138
+  Step 84 @ node 8010894113
+  Step 85 @ node 6276754446
+  Step 86 @ node 7166010645
+  Step 87 @ node 324252330
+  Step 88 @ node 7166010681
+  Step 89 @ node 512933850
+  Step 90 @ node 512933838
+  Step 91 @ node 6580084655
+  Step 92 @ node 7148079589
+  Step 93 @ node 6584163831
+  Step 94 @ node 6584163826
+  Step 95 @ node 6586018499
+  Step 96 @ node 6586018492
+  Step 97 @ node 6594187457
+  Step 98 @ node 2265672671
+  Step 99 @ node 32521694
+  Step 100 @ node 7198313475
+  Step 101 @ node 7198313470
+  Step 102 @ node 7198313436
+  Step 103 @ node 7198313434
+  Step 104 @ node 7198313429
+  Step 105 @ node 12390354197
+  Step 106 @ node 7198308860
+  Step 107 @ node 7188553415
+  Step 108 @ node 512825248
+  Step 109 @ node 7208830923
+  Step 110 @ node 7208830908
+  Step 111 @ node 7208830891
+  Step 112 @ node 7208830836
+  Step 113 @ node 7208830860
+  Step 114 @ node 7208830800
+  Step 115 @ node 302203640
+  Step 116 @ node 7208830854
+  Step 117 @ node 7651678459
+  Step 118 @ node 5441349325
+  Step 119 @ node 32537643
+  Step 120 @ node 7206789705
+  Step 121 @ node 7881145800
+  Step 122 @ node 7208831047
+  Step 123 @ node 32537714
+  Step 124 @ node 269119699
+  Step 125 @ node 7208831016
+  Step 126 @ node 269119643
+  Step 127 @ node 7208831013
+  Step 128 @ node 29542602
+

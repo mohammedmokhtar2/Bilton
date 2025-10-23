@@ -1,0 +1,20 @@
+ROBIN LOGISTICS - SOLUTION SUMMARY
+==================================================
+
+Solver: custom_solver
+Run ID: smoke_v9_after_pathfix
+Timestamp: 2025-10-23T13:44:16.734941
+Execution Time: 4.85 seconds
+
+VALIDATION STATUS: VALID
+Message: Solution is completely valid
+
+KEY METRICS:
+--------------------
+Total Routes: 5
+Vehicles Used: 5/12
+Orders Served: 49/50
+Total Distance: 23.97 km
+Total Cost: £3323.97
+Vehicle Utilization: 41.7%
+Order Fulfillment: 98.0%

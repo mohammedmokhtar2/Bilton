@@ -1,0 +1,8 @@
+VALIDATION REPORT
+==================================================
+
+Overall Status: INVALID
+Message: Solution is empty - no routes provided
+
+INDIVIDUAL ROUTE VALIDATION:
+------------------------------

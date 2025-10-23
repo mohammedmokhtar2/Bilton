@@ -1,0 +1,13 @@
+VALIDATION REPORT
+==================================================
+
+Overall Status: VALID
+Message: Solution is completely valid
+
+INDIVIDUAL ROUTE VALIDATION:
+------------------------------
+Route 1 (HeavyTruck_WH-1_1): VALID
+Route 2 (HeavyTruck_WH-2_1): VALID
+Route 3 (LightVan_WH-1_1): VALID
+Route 4 (LightVan_WH-1_2): VALID
+Route 5 (LightVan_WH-1_3): VALID
