@@ -133,6 +133,20 @@ def solver(env) -> Dict[str, List[Dict]]:
 
     # --- End Pathfinding ---
 
+    # Robust fallback: when the graph has missing edges, fall back to direct distance.
+    def robust_path_and_cost(start: int, goal: int) -> Tuple[Optional[List[int]], float]:
+        path, cost = shortest_path(start, goal)
+        if path:
+            return path, cost
+        try:
+            direct = env.get_distance(start, goal)
+        except Exception:
+            direct = None
+        if direct is None:
+            return None, float('inf')
+        # Fallback path is just a hop from start to goal
+        return [start, goal], float(direct)
+
     # --- K-MEANS CLUSTERING (used to guide packing) ---
 
     order_locations = {}
@@ -289,7 +303,7 @@ def solver(env) -> Dict[str, List[Dict]]:
                 if not warehouse_obj:
                     continue  # Skip if warehouse not found
                 wh_node = warehouse_obj.location.id
-                path, dist = shortest_path(home_node, wh_node)
+                path, dist = robust_path_and_cost(home_node, wh_node)
                 if path:
                     ranked_warehouses.append((float(dist), wh_id, wh_node))
 
@@ -355,12 +369,12 @@ def solver(env) -> Dict[str, List[Dict]]:
         while pickup_nodes_to_visit:
             closest_node, shortest_path_to_node, min_dist = None, None, float('inf')
             for node in pickup_nodes_to_visit:
-                path, dist = shortest_path(current_node, node)
+                path, dist = robust_path_and_cost(current_node, node)
                 if path and dist < min_dist:
                     min_dist, closest_node, shortest_path_to_node = dist, node, path
 
             if closest_node is None:
-                print(f"Warning: Cannot find path to pickup node from {current_node} for {vehicle_id}. Route failed.")
+                print(f"Warning: Cannot find any viable path (even direct) to pickup node from {current_node} for {vehicle_id}. Route failed.")
                 return None, current_planning_inventory
 
             if len(shortest_path_to_node) > 1:
@@ -374,12 +388,12 @@ def solver(env) -> Dict[str, List[Dict]]:
         while delivery_nodes_to_visit:
             closest_node, shortest_path_to_node, min_dist = None, None, float('inf')
             for node in delivery_nodes_to_visit:
-                path, dist = shortest_path(current_node, node)
+                path, dist = robust_path_and_cost(current_node, node)
                 if path and dist < min_dist:
                     min_dist, closest_node, shortest_path_to_node = dist, node, path
 
             if closest_node is None:
-                print(f"Warning: Cannot find path to delivery node from {current_node} for {vehicle_id}. Route failed.")
+                print(f"Warning: Cannot find any viable path (even direct) to delivery node from {current_node} for {vehicle_id}. Route failed.")
                 return None, current_planning_inventory
 
             if len(shortest_path_to_node) > 1:
@@ -389,9 +403,9 @@ def solver(env) -> Dict[str, List[Dict]]:
             current_node = closest_node
             delivery_nodes_to_visit.remove(closest_node)
 
-        path_home_list, path_home_cost = shortest_path(current_node, home_node)
+        path_home_list, path_home_cost = robust_path_and_cost(current_node, home_node)
         if not path_home_list:
-            print(f"Warning: Cannot find path home from {current_node} for {vehicle_id}. Route failed.")
+            print(f"Warning: Cannot find any viable path (even direct) home from {current_node} for {vehicle_id}. Route failed.")
             return None, current_planning_inventory
 
         if len(path_home_list) > 1:
