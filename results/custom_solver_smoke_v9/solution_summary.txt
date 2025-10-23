@@ -1,0 +1,20 @@
+ROBIN LOGISTICS - SOLUTION SUMMARY
+==================================================
+
+Solver: custom_solver
+Run ID: smoke_v9
+Timestamp: 2025-10-23T13:40:04.596432
+Execution Time: 0.06 seconds
+
+VALIDATION STATUS: INVALID
+Message: Solution is empty - no routes provided
+
+KEY METRICS:
+--------------------
+Total Routes: 0
+Vehicles Used: 0/12
+Orders Served: 0/50
+Total Distance: 0.00 km
+Total Cost: £0.00
+Vehicle Utilization: 0.0%
+Order Fulfillment: 0.0%

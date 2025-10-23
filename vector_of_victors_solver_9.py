@@ -13,8 +13,18 @@ This solver uses "High-Throughput Inventory-Aware Bin Packing":
 
 import heapq
 from typing import Dict, Iterable, List, Optional, Tuple
-import numpy as np
-from scipy.cluster.vq import kmeans, vq  # Use Scipy for clustering
+
+# Optional scientific deps: fall back gracefully if unavailable
+try:
+    import numpy as np  # type: ignore
+except Exception:  # pragma: no cover - optional dependency for clustering only
+    np = None  # type: ignore
+
+try:
+    from scipy.cluster.vq import kmeans, vq  # type: ignore
+except Exception:  # pragma: no cover - optional dependency for clustering only
+    kmeans = None  # type: ignore
+    vq = None  # type: ignore
 
 from robin_logistics import LogisticsEnvironment
 
@@ -24,7 +34,9 @@ def solver(env) -> Dict[str, List[Dict]]:
     Main solver function.
     """
 
-    np.random.seed(42)
+    # Make stochastic components reproducible when numpy exists
+    if np is not None:
+        np.random.seed(42)
 
     solution: Dict[str, List[Dict]] = {"routes": []}
 
@@ -143,34 +155,83 @@ def solver(env) -> Dict[str, List[Dict]]:
         for oid in order_ids:
             order_to_cluster_map[oid] = 0
     else:
-        locations_array = np.array([order_locations[oid] for oid in clusterable_order_ids])
+        # Perform clustering only if numpy and scipy are available
+        if np is not None and kmeans is not None and vq is not None:
+            locations_array = np.array([order_locations[oid] for oid in clusterable_order_ids])
 
-        N_CLUSTERS_TO_TRY = 6
-        n_clusters = min(N_CLUSTERS_TO_TRY, len(clusterable_order_ids))
+            N_CLUSTERS_TO_TRY = 6
+            n_clusters = min(N_CLUSTERS_TO_TRY, len(clusterable_order_ids))
 
-        if n_clusters > 0:
-            locations_array_float = locations_array.astype(float)
-            try:
-                code_book, distortion = kmeans(locations_array_float, n_clusters, iter=20)
-                cluster_labels, dist_to_centers = vq(locations_array_float, code_book)
+            if n_clusters > 0:
+                locations_array_float = locations_array.astype(float)
+                try:
+                    code_book, distortion = kmeans(locations_array_float, n_clusters, iter=20)
+                    cluster_labels, dist_to_centers = vq(locations_array_float, code_book)
 
-                clusters_to_orders_map = {i: [] for i in range(n_clusters)}
-                for i, order_id in enumerate(clusterable_order_ids):
-                    cluster_id = cluster_labels[i]
-                    order_to_cluster_map[order_id] = cluster_id
-                    clusters_to_orders_map[cluster_id].append(order_id)
-            except Exception as e:
-                print(f"KMeans (scipy) failed: {e}. Using single cluster.")
+                    clusters_to_orders_map = {i: [] for i in range(n_clusters)}
+                    for i, order_id in enumerate(clusterable_order_ids):
+                        cluster_id = int(cluster_labels[i])
+                        order_to_cluster_map[order_id] = cluster_id
+                        clusters_to_orders_map[cluster_id].append(order_id)
+                except Exception as e:
+                    print(f"KMeans (scipy) failed: {e}. Using single cluster.")
+                    clusters_to_orders_map[0] = list(order_ids)
+                    for oid in order_ids:
+                        order_to_cluster_map[oid] = 0
+            else:
                 clusters_to_orders_map[0] = list(order_ids)
                 for oid in order_ids:
                     order_to_cluster_map[oid] = 0
         else:
+            # Fallback: no clustering, single cluster
             clusters_to_orders_map[0] = list(order_ids)
             for oid in order_ids:
                 order_to_cluster_map[oid] = 0
 
     # --- End Clustering ---
 
+
+    # ---
+    # Home node resolution (handles both node-id and warehouse-id returns)
+    # ---
+    def resolve_home_node_id(vehicle_id: str) -> Optional[int]:
+        """
+        Robustly resolve the node ID of the vehicle's home warehouse.
+
+        Some environments return the home warehouse as a warehouse ID (str), others
+        may return a node ID (int) directly. This function normalizes to a node ID.
+        """
+        try:
+            home_ref = env.get_vehicle_home_warehouse(vehicle_id)
+        except Exception:
+            home_ref = None
+
+        # If it's already an int and exists as a node, use it directly
+        if isinstance(home_ref, int) and home_ref in getattr(env, 'nodes', {}):
+            return home_ref
+
+        # If it's a string (likely a warehouse ID), resolve to the warehouse's node
+        if isinstance(home_ref, str):
+            try:
+                wh = env.get_warehouse_by_id(home_ref) if hasattr(env, 'get_warehouse_by_id') else env.warehouses.get(home_ref)
+                if wh and getattr(wh, 'location', None):
+                    return getattr(wh.location, 'id', None)
+            except Exception:
+                pass
+
+        # Try via the vehicle object
+        try:
+            vehicle_obj = env.get_vehicle_by_id(vehicle_id)
+            wh_id = getattr(vehicle_obj, 'home_warehouse_id', None)
+            if wh_id:
+                wh = env.get_warehouse_by_id(wh_id) if hasattr(env, 'get_warehouse_by_id') else env.warehouses.get(wh_id)
+                if wh and getattr(wh, 'location', None):
+                    return getattr(wh.location, 'id', None)
+        except Exception:
+            pass
+
+        # Last resort: None (caller should handle)
+        return None
 
     # ---
     # Helper function to generate a route.
@@ -225,11 +286,12 @@ def solver(env) -> Dict[str, List[Dict]]:
             ranked_warehouses = []
             for wh_id in warehouses_with_item:
                 warehouse_obj = env.get_warehouse_by_id(wh_id)
-                if not warehouse_obj: continue # Skip if warehouse not found
+                if not warehouse_obj:
+                    continue  # Skip if warehouse not found
                 wh_node = warehouse_obj.location.id
                 path, dist = shortest_path(home_node, wh_node)
                 if path:
-                    ranked_warehouses.append((dist, wh_id, wh_node))
+                    ranked_warehouses.append((float(dist), wh_id, wh_node))
 
             ranked_warehouses.sort()
 
@@ -342,13 +404,16 @@ def solver(env) -> Dict[str, List[Dict]]:
         route_node_ids = [step['node_id'] for step in steps]
         total_route_distance = env.get_route_distance(route_node_ids)
 
-        if total_route_distance is None: # Handle case where route distance calculation fails
-             print(f"Warning: Could not calculate route distance for {vehicle_id}. Route failed.")
-             return None, current_planning_inventory
+        if total_route_distance is None:  # Handle case where route distance calculation fails
+            print(f"Warning: Could not calculate route distance for {vehicle_id}. Route failed.")
+            return None, current_planning_inventory
 
-        if total_route_distance > vehicle.max_distance:
-            print(f"Validation FAILED for {vehicle_id}: Route distance ({total_route_distance:.2f} km) "
-                  f"exceeds vehicle max distance ({vehicle.max_distance} km). Returning None.")
+        max_dist = getattr(vehicle, 'max_distance', None)
+        if isinstance(max_dist, (int, float)) and max_dist > 0 and total_route_distance > max_dist:
+            print(
+                f"Validation FAILED for {vehicle_id}: Route distance ({total_route_distance:.2f} km) "
+                f"exceeds vehicle max distance ({max_dist} km). Returning None."
+            )
             return None, current_planning_inventory
         # --- END MAX DISTANCE CHECK ---
 
@@ -431,7 +496,11 @@ def solver(env) -> Dict[str, List[Dict]]:
 
         if vehicle_orders:
             vehicle_id = vehicle.id
-            home_node = env.get_vehicle_home_warehouse(vehicle_id)
+            home_node = resolve_home_node_id(vehicle_id)
+            if home_node is None:
+                print(f"Error: Could not resolve home node for {vehicle_id}. Returning orders to pool.")
+                unassigned_order_set.update(vehicle_orders)
+                continue
 
             steps, new_planning_inventory = generate_route_for_orders(
                 vehicle_id, home_node, vehicle_orders, planning_inventory
@@ -480,7 +549,10 @@ def solver(env) -> Dict[str, List[Dict]]:
                   if (order_weight <= vehicle.capacity_weight and
                       order_volume <= vehicle.capacity_volume):
 
-                      home_node = env.get_vehicle_home_warehouse(vehicle_id)
+                      home_node = resolve_home_node_id(vehicle_id)
+                      if home_node is None:
+                          print(f"Error: Could not resolve home node for {vehicle_id} in fallback.")
+                          continue
 
                       steps, new_planning_inventory = generate_route_for_orders(
                           vehicle_id, home_node, [order_id], planning_inventory

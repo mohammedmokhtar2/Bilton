@@ -1,0 +1,20 @@
+ROBIN LOGISTICS - SOLUTION SUMMARY
+==================================================
+
+Solver: custom_solver
+Run ID: seed_3
+Timestamp: 2025-10-23T13:44:45.820368
+Execution Time: 6.22 seconds
+
+VALIDATION STATUS: VALID
+Message: Solution is completely valid
+
+KEY METRICS:
+--------------------
+Total Routes: 2
+Vehicles Used: 2/12
+Orders Served: 50/50
+Total Distance: 0.00 km
+Total Cost: £2400.00
+Vehicle Utilization: 16.7%
+Order Fulfillment: 100.0%
