@@ -13,7 +13,7 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
  
 from robin_logistics import LogisticsEnvironment
-from vector_of_victors_solver_9 import solver
+from mwvrp_solver import solver
  
  
 def main():
